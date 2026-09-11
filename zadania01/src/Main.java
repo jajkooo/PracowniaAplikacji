@@ -50,4 +50,11 @@ void main() {
     System.out.print("Podaj slowo: ");
     slowo4 = scanner.nextLine();
     System.out.println(slowo4.toUpperCase());
+
+    /* zad10*/
+    Scanner scanner7 = new Scanner(System.in);
+    System.out.print("Promien: ");
+    int promien = scanner7.nextInt();
+    double pole = Math.PI * promien * promien;
+    System.out.println("Pole koła: " + pole);
 }
