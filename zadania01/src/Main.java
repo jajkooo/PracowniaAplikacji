@@ -18,4 +18,10 @@ void main() {
     double stopnie = scanner.nextDouble();
     double farenhajt = 1.8 * stopnie + 32.0;
     System.out.println("Aktualna temperatura w farenhajtach " + farenhajt);
+
+    /* zad 5*/
+    Scanner scanner1 = new Scanner(System.in);
+    System.out.print("3 boku trojkata po spacji ");
+    double obwod = scanner1.nextDouble() + scanner1.nextDouble() + scanner1.nextDouble();
+    System.out.println("Obwod: " + obwod);
 }
