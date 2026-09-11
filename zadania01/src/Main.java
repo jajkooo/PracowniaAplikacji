@@ -14,35 +14,40 @@ void main() {
 
     /* zad 4*/
     Scanner scanner = new Scanner(System.in);
-    System.out.print("Aktualna temperatura c: ");
-    double stopnie = scanner.nextDouble();
-    double farenhajt = 1.8 * stopnie + 32.0;
-    System.out.println("Aktualna temperatura w farenhajtach " + farenhajt);
+//    System.out.print("Aktualna temperatura c: ");
+//    double stopnie = scanner.nextDouble();
+//    double farenhajt = 1.8 * stopnie + 32.0;
+//    System.out.println("Aktualna temperatura w farenhajtach " + farenhajt);
 
     /* zad 5*/
-    Scanner scanner1 = new Scanner(System.in);
-    System.out.print("3 boku trojkata po spacji ");
-    double obwod = scanner1.nextDouble() + scanner1.nextDouble() + scanner1.nextDouble();
-    System.out.println("Obwod: " + obwod);
+//    System.out.print("3 boku trojkata po spacji ");
+//    double obwod = scanner.nextDouble() + scanner.nextDouble() + scanner.nextDouble();
+//    System.out.println("Obwod: " + obwod);
 
     /* zad 6*/
-    Scanner scanner2 = new Scanner(System.in);
-    System.out.println("3 slowa:");
-    String slowo1 = scanner2.next();
-    String slowo2 = scanner2.next();
-    String slowo3 = scanner2.next();
-    System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
+
+//    System.out.println("3 slowa:");
+//    String slowo1 = scanner.next();
+//    String slowo2 = scanner.next();
+//    String slowo3 = scanner.next();
+//    System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
 
     /* zad 7*/
-    Scanner scanner3 = new Scanner(System.in);
-    System.out.print("Podaj wyraz: ");
-    String slowo = scanner3.next();
-    int liczbaZnaków = slowo.length();
-    System.out.println(liczbaZnaków);
+
+//    System.out.print("Podaj wyraz: ");
+//    String slowo = scanner.next();
+//    int liczbaZnaków = slowo.length();
+//    System.out.println(liczbaZnaków);
 
     /* zad 8*/
-    double x = 5;
-    double y = 2;
-    double wynik = x / y;
-    System.out.println(wynik);
+//    double x = 5;
+//    double y = 2;
+//    double wynik = x / y;
+//    System.out.println(wynik);
+
+    /* zad 9*/
+    String slowo4;
+    System.out.print("Podaj slowo: ");
+    slowo4 = scanner.nextLine();
+    System.out.println(slowo4.toUpperCase());
 }
