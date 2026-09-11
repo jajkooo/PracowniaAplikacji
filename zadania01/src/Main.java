@@ -36,10 +36,13 @@ void main() {
     /* zad 7*/
     Scanner scanner3 = new Scanner(System.in);
     System.out.print("Podaj wyraz: ");
-    String slowo = scanner3.next();1
+    String slowo = scanner3.next();
     int liczbaZnaków = slowo.length();
     System.out.println(liczbaZnaków);
 
     /* zad 8*/
-    
+    double x = 5;
+    double y = 2;
+    double wynik = x / y;
+    System.out.println(wynik);
 }
