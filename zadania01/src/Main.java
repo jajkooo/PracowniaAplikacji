@@ -24,4 +24,12 @@ void main() {
     System.out.print("3 boku trojkata po spacji ");
     double obwod = scanner1.nextDouble() + scanner1.nextDouble() + scanner1.nextDouble();
     System.out.println("Obwod: " + obwod);
+
+    /* zad 6*/
+    Scanner scanner2 = new Scanner(System.in);
+    System.out.println("Podaj trzy słowa (zatwierdzając każde klawiszem Enter):");
+    String slowo1 = scanner2.next();
+    String slowo2 = scanner2.next();
+    String slowo3 = scanner2.next();
+    System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
 }
