@@ -27,9 +27,19 @@ void main() {
 
     /* zad 6*/
     Scanner scanner2 = new Scanner(System.in);
-    System.out.println("Podaj trzy słowa (zatwierdzając każde klawiszem Enter):");
+    System.out.println("3 slowa:");
     String slowo1 = scanner2.next();
     String slowo2 = scanner2.next();
     String slowo3 = scanner2.next();
     System.out.println(slowo3 + ", " + slowo2 + ", " + slowo1);
+
+    /* zad 7*/
+    Scanner scanner3 = new Scanner(System.in);
+    System.out.print("Podaj wyraz: ");
+    String slowo = scanner3.next();1
+    int liczbaZnaków = slowo.length();
+    System.out.println(liczbaZnaków);
+
+    /* zad 8*/
+    
 }
