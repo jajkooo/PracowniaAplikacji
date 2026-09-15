@@ -25,4 +25,6 @@ void main() {
     Scanner sc = new Scanner(System.in);
 
     int wiek = sc.nextInt();
+
+
 }
