@@ -1,7 +1,6 @@
 void main () {
     Scanner scanner = new Scanner(System.in);
 //zad1
-    System.out.println("ZADANIE 1");
     System.out.print("Podaj liczbę: ");
     int liczba1 = scanner.nextInt();
 
@@ -10,7 +9,6 @@ void main () {
     }
 
 //zad2
-    System.out.println("ZADANIE 2");
     System.out.print("Podaj liczbę: ");
     int liczba2 = scanner.nextInt();
 
@@ -21,7 +19,6 @@ void main () {
         potega = potega * 2;
     }
 //zad3
-    System.out.println("ZADANIE 3");
     System.out.println("Podawaj liczby. 0 kończy program.");
 
     int liczba3;
@@ -36,7 +33,6 @@ void main () {
 
 
 //zad4
-    System.out.println("ZADANIE 4");
     System.out.println("Podawaj liczby. 0 kończy program.");
 
     int liczba4;
@@ -82,8 +78,6 @@ void main () {
 
 
 //zad5
-    System.out.println("ZADANIE 5");
-
     Random random = new Random();
     int wylosowana = random.nextInt(100) + 1;
 
@@ -102,6 +96,58 @@ void main () {
         }
 
     } while (strzal != wylosowana);
+
+
+//zad6
+    System.out.print("Podaj znak: ");
+    char znak = scanner.next().charAt(0);
+
+    System.out.print("Podaj x: ");
+    int x = scanner.nextInt();
+
+    System.out.print("Podaj y: ");
+    int y = scanner.nextInt();
+
+    System.out.print("Podaj długość a: ");
+    int a = scanner.nextInt();
+
+    System.out.print("Podaj długość b: ");
+    int b = scanner.nextInt();
+
+    for (int i = 1; i < y; i++) {
+        System.out.println();
+    }
+
+    for (int i = 0; i < b; i++) {
+
+        for (int j = 1; j < x; j++) {
+            System.out.print(" ");
+        }
+
+        for (int j = 0; j < a; j++) {
+            System.out.print(znak);
+        }
+
+        System.out.println();
+    }
+
+
+//zad7
+    System.out.print("Podaj wysokość choinki: ");
+    int n = scanner.nextInt();
+
+    for (int i = 1; i <= n; i++) {
+
+        for (int j = 1; j <= n - i; j++) {
+            System.out.print(" ");
+        }
+
+        for (int j = 1; j <= 2 * i - 1; j++) {
+            System.out.print("*");
+        }
+
+        System.out.println();
+    }
 
 
 }
