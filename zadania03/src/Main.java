@@ -9,4 +9,16 @@ void main () {
         System.out.println(i);
     }
 
+//zad2
+    System.out.println("ZADANIE 2");
+    System.out.print("Podaj liczbę: ");
+    int liczba2 = scanner.nextInt();
+
+    int potega = 1;
+
+    while (potega <= liczba2) {
+        System.out.println(potega);
+        potega = potega * 2;
+    }
+
 }
