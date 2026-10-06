@@ -150,4 +150,50 @@ void main () {
     }
 
 
+//zad8
+    System.out.print("Podaj liczbę: ");
+    int liczba8 = scanner.nextInt();
+
+    int silnia = 1;
+
+    for (int i = 1; i <= liczba8; i++) {
+        silnia = silnia * i;
+    }
+
+    System.out.println("Silnia: " + silnia);
+
+//zad9
+    System.out.print("Podaj słowo: ");
+    String slowo = scanner.next();
+
+    String odwrocone = "";
+
+    for (int i = slowo.length() - 1; i >= 0; i--) {
+        odwrocone = odwrocone + slowo.charAt(i);
+    }
+
+    if (slowo.equals(odwrocone)) {
+        System.out.println("To jest palindrom");
+    } else {
+        System.out.println("To nie jest palindrom");
+    }
+
+
+//zad10
+    petlaGlowna:
+    for (int i = 1; i <= 10; i++) {
+
+        if (i % 2 != 0) {
+            continue;
+        }
+
+        for (int j = 1; j <= 10; j++) {
+
+            System.out.println(j);
+
+            if (j > i) {
+                continue petlaGlowna;
+            }
+        }
+    }
 }
