@@ -81,4 +81,27 @@ void main () {
     }
 
 
+//zad5
+    System.out.println("ZADANIE 5");
+
+    Random random = new Random();
+    int wylosowana = random.nextInt(100) + 1;
+
+    int strzal;
+
+    do {
+        System.out.print("Zgadnij liczbę od 1 do 100: ");
+        strzal = scanner.nextInt();
+
+        if (strzal > wylosowana) {
+            System.out.println("Podałeś za dużą wartość");
+        } else if (strzal < wylosowana) {
+            System.out.println("Podałeś za małą wartość");
+        } else {
+            System.out.println("Gratulacje");
+        }
+
+    } while (strzal != wylosowana);
+
+
 }
