@@ -35,4 +35,50 @@ void main () {
     System.out.println("Suma: " + suma3);
 
 
+//zad4
+    System.out.println("ZADANIE 4");
+    System.out.println("Podawaj liczby. 0 kończy program.");
+
+    int liczba4;
+    int suma4 = 0;
+    int ilosc4 = 0;
+    int najmniejsza = 0;
+    int najwieksza = 0;
+
+    do {
+        liczba4 = scanner.nextInt();
+
+        if (liczba4 != 0) {
+
+            if (ilosc4 == 0) {
+                najmniejsza = liczba4;
+                najwieksza = liczba4;
+            }
+
+            if (liczba4 < najmniejsza) {
+                najmniejsza = liczba4;
+            }
+
+            if (liczba4 > najwieksza) {
+                najwieksza = liczba4;
+            }
+
+            suma4 = suma4 + liczba4;
+            ilosc4++;
+        }
+
+    } while (liczba4 != 0);
+
+    if (ilosc4 > 0) {
+        System.out.println("Najmniejsza: " + najmniejsza);
+        System.out.println("Największa: " + najwieksza);
+        System.out.println("Suma najmniejszej i największej: " + (najmniejsza + najwieksza));
+
+        double srednia = (double) suma4 / ilosc4;
+        System.out.println("Średnia: " + srednia);
+    } else {
+        System.out.println("Nie podano żadnych liczb.");
+    }
+
+
 }
