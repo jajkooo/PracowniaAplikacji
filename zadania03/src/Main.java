@@ -20,5 +20,19 @@ void main () {
         System.out.println(potega);
         potega = potega * 2;
     }
+//zad3
+    System.out.println("ZADANIE 3");
+    System.out.println("Podawaj liczby. 0 kończy program.");
+
+    int liczba3;
+    int suma3 = 0;
+
+    do {
+        liczba3 = scanner.nextInt();
+        suma3 = suma3 + liczba3;
+    } while (liczba3 != 0);
+
+    System.out.println("Suma: " + suma3);
+
 
 }
